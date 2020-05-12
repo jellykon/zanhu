@@ -1,0 +1,52 @@
+[[source]]
+name = "pypi"
+url = "https://mirrors.aliyun.com/pypi/simple/"
+verify_ssl = true
+
+[dev-packages]
+coverage = "*"
+flake8 = "*"
+pylint-common = "*"
+pylint-django = "*"
+pylint = "*"
+django-coverage-plugin = "*"
+django-debug-toolbar = "*"
+django-extensions = "*"
+django-test-plus = "*"
+pytest-django = "*"
+
+[packages]
+python-slugify = "*"
+redis = "*"
+django = "*"
+django-redis = "*"
+django-allauth = "*"
+django-environ = "*"
+django-crispy-forms = "*"
+django-compressor = "*"
+mysqlclient = "*"
+django-contrib-comments = "*"
+django-markdownx = "*"
+channels = "*"
+sorl-thumbnail = "*"
+django-taggit = "*"
+channels-redis = "*"
+awesome-slugify = "*"
+argon2-cffi = "*"
+pillow = "*"
+coverage = "*"
+python3-openid = "*"
+requests-oauthlib = "*"
+requests = "*"
+django-haystack = "==2.8.1"
+elasticsearch = "==2.4.1"
+billiard = {file = "https://github.com/celery/billiard/zipball/master"}
+amqp = {file = "https://github.com/celery/py-amqp/zipball/master"}
+kombu = {file = "https://github.com/celery/kombu/zipball/master"}
+vine = {file = "https://github.com/celery/vine/zipball/master"}
+celery = {file = "https://github.com/celery/celery/zipball/master"}
+test-plus = "*"
+django-test-plus = "*"
+
+[requires]
+python_version = "3.7"
